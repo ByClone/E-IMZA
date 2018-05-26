@@ -9,11 +9,3 @@ Returns signed XML as string. Usage: cmd /C ""ESigner.exe" "XML string" "Path of
 
 TÜrkçe: ESigner.exe üç parametre alır. İlki imzalanacak XML string. XML dosyadan okunacaksa ilk parametreyi boş ( "" ) geçip ikinci parametrede kaynak dosyanın yolunu verin. Eğer iki parametre de gönderilmişse ilki (string xml) dikkate alınır. Üçüncü parametre kart tipidir, "SAFESIGN", "AKIS" gibi.
 
-İmzalama gerçekleşince program kapanır ve imzalanmış veriyi string olarak döndürür.
-
-Komut satırı: cmd /C ""ESigner.exe" "....." "kaynak xml yolu" "AKIS""
-
-ibrahim KAZANCI Healthy HBYS www.hbys.web.tr
-
-https://plus.google.com/+ibrahimKazanci_1
-
