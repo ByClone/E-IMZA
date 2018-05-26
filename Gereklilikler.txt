@@ -1,0 +1,35 @@
+EIMZAOS.exe'nin bulunduðu dizinde
+  xmlsignature-config.xml
+  EImzaOS.exe.config
+  EImzaOS.vshost.exe.config
+  certval-policy.xml
+  asn1rt.dll
+  log4net.dll
+  ma3api-asn.dll
+  ma3api-certstore.dll
+  ma3api-certvalidation.dll
+  ma3api-cmssignature.dll
+  ma3api-common.dll
+  ma3api-crypto-bouncyprovider.dll
+  ma3api-crypto.dll
+  ma3api-iaik_wrapper.dll
+  ma3api-infra.dll
+  ma3api-managedPkcs11.dll
+  ma3api-mssclient-aveaprovider.dll
+  ma3api-mssclient-turkcellprovider.dll
+  ma3api-mssclient.dll
+  ma3api-pkcs11net.dll
+  ma3api-signature.dll
+  ma3api-smartcard.dll
+  ma3api-xmlsignature.dll
+  nunit.framework.dll
+  System.Data.SQLite.dll
+dosyalarý olmalýdýr.(exe ile ayný klasörde)
+
+Ayrýca exe'nin bulunduðu klasörün altýnda 4 klasör olmalýdýr. Bunlar;
+  trusted klasörü: akýllý karta ait .cer uzantýlý sertifika import edilip kaydedilmelidir.
+  lisans klasörü: lisansFree.xml adýyla lisans dosyasý kayýtlý olmalýdýr (path bilgisi lisanshelper.cs içinde yer alýyor. Dosya amusm'den geliyor)
+  en-US klasörü: (dll dosyalarý)
+  tr-TR klasörü: (dll dosyalarý)
+
+

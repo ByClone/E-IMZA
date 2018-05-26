@@ -1,0 +1,37 @@
+Esya API XADES .NET 1.4.15
+
+***********************************
+
+NOTLAR
+---------
+=> lib dizini altýnda kullanmanýz gereken dll dosyalarý bulunmaktadýr.
+=> docs/samples/src altýnda örnek kullaným test sýnýflarýný bulabilirsiniz.
+    Testleri çalýþtýrmadan önce 
+    1)certstore dizini altýndaki SertifikaDeposu.svt dosyasýný kullanýcý windows dizini altýnda
+	.sertifikadeposu isimli dizin oluþturup içine kopyalayýnýz.
+    2)Örnek kodlardaki BES tipindeki(temel imza) imzalar için lisans dizini altýndaki lisans.xml dosyasý 
+	kullanýlmaktadýr. BES imza her türlü sertifika ile oluþturulabilir.
+    3)Örnek kodlardaki zaman damgasý içeren geliþmiþ imzalar için 
+	* Test sertifikalarýyla(KamuSM test sisteminden alýmýþ,KamuSM gerçek sisteminden verilmiþ test sertifikasý ya da kiþi tarafýndan üretilmiþ) test lisansýný kullanarak geliþmiþ imza atýlabilir. 
+		Test lisansý ile imza oluþturabilmek için sertifika sahibininin adýnýn içerisinde <test> ibaresinin geçmesi gerekmektedir.
+	* Gerçek sertifikalarla iþlem yapabilmek için kütüphanenin satýn alýnmasý gerekmektedir.	
+	(Detaylý bilgi için kullaným klavuzuna bakýnýz.)
+
+=> Testleri çalýþtýrmak için NES ya da test sertifikasýný içeren akýllý kart bilgisayara takýlý olmalýdýr.
+XmlApiTestConstants içine kartýnýzýn PIN'ini girmeyi unutmayýnýz.
+
+=> Test projesi Visual Studio 2008 ve .Net Framework 3.5 ile oluþturulmuþtur.
+
+=> Örnek proje test projesi olarak oluþturulmuþtur. Test projesini çalýþtýrmak için Resharper(http://www.jetbrains.com/resharper/) eklentisi kullanýlmýþtýr.
+Test projesini çalýþtýrdýktan sonra kod içerisindeki XmlApiTestConstants.TEST_PROJECT_FOLDER deðerinin proje dizinine referans olduðunu kontrol ediniz.
+Ýþlemler bu dizin baz alýnarak yapýlmýþtýr.
+
+=> Test sertifikalarý(KamuSM test sistemi ya da kiþi tarafýndan üretilmiþ) ile çalýþýrken docs/config/test içerisindeki xml imza konfigurasyon ve sertifika doðrulama konfigurasyon dosyalarý ile çalýþýnýz. 
+
+=> Elektronik Reçete Ýmzalama ( Tümleþik Ýmza-Enveloping Signature) ile ilgili örnek kodlarý 
+http://www.kamusm.gov.tr/dosyalar/sunumlar/calistay/2013/E-Recete_Calistay_Egitim_23_01_2013_Ankara.zip
+adresinden bulabilirsiniz. Burdan indirdiðiniz proje içerisindeki dll dosyalarýný 1.4.15 sürümü dosyalarý ile güncelleyiniz.
+
+	
+
+

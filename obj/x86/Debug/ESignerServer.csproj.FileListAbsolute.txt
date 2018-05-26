@@ -1,0 +1,96 @@
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\ESigner.exe.config
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\ESigner.exe
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\ESigner.pdb
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\asn1rt.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\SignatureHelper.Main.resources
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\ESigner.Properties.Resources.resources
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\EsignerServer.csproj.GenerateResource.Cache
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\ESigner.exe
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\ESigner.pdb
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\tr-TR\ma3api-cmssignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\tr-TR\ma3api-common.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\tr-TR\ma3api-smartcard.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\tr-TR\ma3api-xmlsignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\obj\x86\Debug\ESignerServer.csprojResolveAssemblyReference.cache
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\en-US\ma3api-cmssignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\en-US\ma3api-common.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\en-US\ma3api-smartcard.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer\bin\x86\Debug\en-US\ma3api-xmlsignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.exe.config
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.exe
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.pdb
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.exe
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.pdb
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\asn1rt.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\SignatureHelper.Main.resources
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.Properties.Resources.resources
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csproj.GenerateResource.Cache
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-cmssignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-common.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-smartcard.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-xmlsignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csprojResolveAssemblyReference.cache
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\log4net.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-asn.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-certstore.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-certvalidation.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-cmssignature.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-common.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-crypto-bouncyprovider.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-crypto.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-iaik_wrapper.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-infra.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-managedPkcs11.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient-aveaprovider.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient-turkcellprovider.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-pkcs11net.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-signature.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-smartcard.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-xmlsignature.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\nunit.framework.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-cmssignature.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-common.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-smartcard.resources.dll
+C:\Users\ikazanci\Documents\Visual Studio 2010\Projects\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-xmlsignature.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.exe.config
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.exe
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ESigner.pdb
+E:\ESignerServer - 2.1.2\bin\x86\Debug\asn1rt.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\log4net.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-asn.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-certstore.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-certvalidation.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-cmssignature.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-common.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-crypto-bouncyprovider.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-crypto.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-iaik_wrapper.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-infra.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-managedPkcs11.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient-aveaprovider.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient-turkcellprovider.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-mssclient.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-pkcs11net.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-signature.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-smartcard.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\ma3api-xmlsignature.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\nunit.framework.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\System.Data.SQLite.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-cmssignature.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-cmssignature.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-common.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-common.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-smartcard.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-smartcard.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\en-US\ma3api-xmlsignature.resources.dll
+E:\ESignerServer - 2.1.2\bin\x86\Debug\tr-TR\ma3api-xmlsignature.resources.dll
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csprojResolveAssemblyReference.cache
+E:\ESignerServer - 2.1.2\obj\x86\Debug\SignatureHelper.Main.resources
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.Properties.Resources.resources
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csproj.GenerateResource.cache
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csproj.CoreCompileInputs.cache
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESignerServer.csproj.CopyComplete
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.exe
+E:\ESignerServer - 2.1.2\obj\x86\Debug\ESigner.pdb

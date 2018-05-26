@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SignaturePolicy xmlns="http://uri.etsi.org/2038/v1.1.1#"
+                 xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+
+    <SignPolicyDigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    
+    <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    </ds:Transforms>
+
+    <SignPolicyInfo>
+        <SignPolicyIdentifier>2.16.792.1.2.1.1.5.7.5.1.1</SignPolicyIdentifier>
+        <DateOfIssue>2012-02-01T00:00:00.000Z</DateOfIssue>
+        <PolicyIssuerName>TÜBİTAK BİLGEM Kamu Sertifikasyon Merkezi</PolicyIssuerName>
+        <FieldOfApplication>Kamu kurumlarının NES iptal kontrollerini SİL
+            üzerinden yapan, zaman damgası alınabilen ve oluşturulan
+            elektronik imzalı belgelerin imzada kullanılan NES'in kalan
+            geçerlilik süresinden
+            daha kısa bir süre saklanması gereken güvenli elektronik imza
+            uygulamaları
+        </FieldOfApplication>
+
+        <SignatureValidationPolicy>
+            <SigningPeriod>
+                <NotBefore>2012-02-01T00:00:00.000Z</NotBefore>
+            </SigningPeriod>
+
+            <CommonRules>
+                <SignerAndVerifierRules>
+                    <SignerRules>
+
+                        <MandatedSignedQProperties>
+                            <QPropertyID>Signature/Object/QualifyingProperties/SignedProperties/SignedDataObjectProperties/DataObjectFormat</QPropertyID>
+                            <QPropertyID>Signature/Object/QualifyingProperties/SignedProperties/SignedSignatureProperties/SigningTime</QPropertyID>
+                            <QPropertyID>Signature/Object/QualifyingProperties/SignedProperties/SignedSignatureProperties/SigningCertificate</QPropertyID>
+                            <QPropertyID>Signature/Object/QualifyingProperties/SignedProperties/SignedSignatureProperties/SignaturePolicyIdentifier</QPropertyID>
+                        </MandatedSignedQProperties>
+
+                        <MandatedUnsignedQProperties>
+                            <QPropertyID>Signature/Object/QualifyingProperties/UnSignedProperties/UnsignedSignatureProperties/SignatureTimeStamp</QPropertyID>
+                        </MandatedUnsignedQProperties>
+
+                        <MandatedCertificateRef>signerOnly</MandatedCertificateRef>
+                        <MandatedCertificateInfo>signerOnly</MandatedCertificateInfo>
+                    </SignerRules>
+
+                    <VerifierRules>
+                        <MandatedQUnsignedProperties>
+                            <QPropertyID>Signature/Object/QualifyingProperties/UnSignedProperties/UnsignedSignatureProperties/SignatureTimeStamp</QPropertyID>
+                        </MandatedQUnsignedProperties>
+                    </VerifierRules>
+                </SignerAndVerifierRules>
+
+                <SigningCertTrustCondition>
+
+                    <SignerTrustTrees>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!--KSM Kök Sertifikası v3 -->
+MIIFFzCCA/+gAwIBAgIBETANBgkqhkiG9w0BAQUFADCCASsxCzAJBgNVBAYTAlRSMRgwFgYDVQQH
+DA9HZWJ6ZSAtIEtvY2FlbGkxRzBFBgNVBAoMPlTDvHJraXllIEJpbGltc2VsIHZlIFRla25vbG9q
+aWsgQXJhxZ90xLFybWEgS3VydW11IC0gVMOcQsSwVEFLMUgwRgYDVQQLDD9VbHVzYWwgRWxla3Ry
+b25payB2ZSBLcmlwdG9sb2ppIEFyYcWfdMSxcm1hIEVuc3RpdMO8c8O8IC0gVUVLQUUxIzAhBgNV
+BAsMGkthbXUgU2VydGlmaWthc3lvbiBNZXJrZXppMUowSAYDVQQDDEFUw5xCxLBUQUsgVUVLQUUg
+S8O2ayBTZXJ0aWZpa2EgSGl6bWV0IFNhxJ9sYXnEsWPEsXPEsSAtIFPDvHLDvG0gMzAeFw0wNzA4
+MjQxMTM3MDdaFw0xNzA4MjExMTM3MDdaMIIBKzELMAkGA1UEBhMCVFIxGDAWBgNVBAcMD0dlYnpl
+IC0gS29jYWVsaTFHMEUGA1UECgw+VMO8cmtpeWUgQmlsaW1zZWwgdmUgVGVrbm9sb2ppayBBcmHF
+n3TEsXJtYSBLdXJ1bXUgLSBUw5xCxLBUQUsxSDBGBgNVBAsMP1VsdXNhbCBFbGVrdHJvbmlrIHZl
+IEtyaXB0b2xvamkgQXJhxZ90xLFybWEgRW5zdGl0w7xzw7wgLSBVRUtBRTEjMCEGA1UECwwaS2Ft
+dSBTZXJ0aWZpa2FzeW9uIE1lcmtlemkxSjBIBgNVBAMMQVTDnELEsFRBSyBVRUtBRSBLw7ZrIFNl
+cnRpZmlrYSBIaXptZXQgU2HEn2xhecSxY8Sxc8SxIC0gU8O8csO8bSAzMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAim1L/xCIOsP2fpTo6iBkcK4hgb46ezzb8R1Sf1n68yJMlaCQvEhO
+Eav7t7WNeoMojCZG2E6VQIdhn8WebYGHV2yKO7Rm6sxA/OOqbLLLAdsyv9Lrhc+hDVXDWzhXcLh1
+xnnRFDDtG1hba+818qEhTsXOfJlfbLm4IpNQp81McGq+agV/E5wrHur+R84EpW+sky58K5+eeROR
+6Oqeyjh1jmKwlZMq5d/pXpduIF9fhHpEORlAHLpVK/swsoHvhOPc7Jg4OQOFCKlUAwUp8MmPi+oL
+hmUZEdPpCSPeaJMDyTYcIW7OjGbxmTDY17PDHfiBLqi9ggtm/oLL4eAagsNAgQIDAQABo0IwQDAd
+BgNVHQ4EFgQUvYiHyY/2pAoLquvF/pEjnatKijIwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQF
+MAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAB18+kmPNOm3JpIWmgV050vQbTlswyb2zrgxvMTfvCr4
+N5EY3ATIZJkrGG2AA1nJrvhY0D7twyOfaTyGOBye79oneNGEN3GKPEs5z35FBtYt2IpNeBLWrcLT
+y9LQQfMmNkqblWwM7uXRQydmwYj3erMgbOqwaSvHIOgMA8RBBZniP+Rr+KCGgceExh/VS4ESshYh
+LBOhgLJeDEoTniDYYkCrkOpkSi+sDQESeUWoL4cZaMjihccwsnX5OD+ywJO0a+IDRM5noN+J1q2M
+dqMTw5RhK2vZbMEHCiIHhWyFJEapvj+LeISCfiQMnf2BN+MlqO02TpUsyZyQ2uypQjyttgI=
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!--KSM Kök Sertifikası v2 -->
+MIIHADCCBOigAwIBAgIBATANBgkqhkiG9w0BAQUFADCCAR8xCzAJBgNVBAYTAlRSMRgwFgYDVQQH
+DA9HZWJ6ZSAtIEtvY2FlbGkxRzBFBgNVBAoMPlTDvHJraXllIEJpbGltc2VsIHZlIFRla25vbG9q
+aWsgQXJhxZ90xLFybWEgS3VydW11IC0gVMOcQsSwVEFLMUgwRgYDVQQLDD9VbHVzYWwgRWxla3Ry
+b25payB2ZSBLcmlwdG9sb2ppIEFyYcWfdMSxcm1hIEVuc3RpdMO8c8O8IC0gVUVLQUUxIzAhBgNV
+BAsMGkthbXUgU2VydGlmaWthc3lvbiBNZXJrZXppMT4wPAYDVQQDDDVUw5xCxLBUQUsgVUVLQUUg
+S8O2ayBTZXJ0aWZpa2EgSGl6bWV0IFNhxJ9sYXnEsWPEsXPEsTAeFw0wNTEwMDMxMTUwMjVaFw0x
+NTEwMDMxMTUwMjVaMIIBHzELMAkGA1UEBhMCVFIxGDAWBgNVBAcMD0dlYnplIC0gS29jYWVsaTFH
+MEUGA1UECgw+VMO8cmtpeWUgQmlsaW1zZWwgdmUgVGVrbm9sb2ppayBBcmHFn3TEsXJtYSBLdXJ1
+bXUgLSBUw5xCxLBUQUsxSDBGBgNVBAsMP1VsdXNhbCBFbGVrdHJvbmlrIHZlIEtyaXB0b2xvamkg
+QXJhxZ90xLFybWEgRW5zdGl0w7xzw7wgLSBVRUtBRTEjMCEGA1UECwwaS2FtdSBTZXJ0aWZpa2Fz
+eW9uIE1lcmtlemkxPjA8BgNVBAMMNVTDnELEsFRBSyBVRUtBRSBLw7ZrIFNlcnRpZmlrYSBIaXpt
+ZXQgU2HEn2xhecSxY8Sxc8SxMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4AFOh5Gz
+zbuJ/c3o7XxoQ4P5xFUdJbhqe7qyg0nKS073JiT8tM+BTT/fQRFWbj8av7Q0PgkDJLQ9mKcqvLoN
+O4vwy+6AwVLTuDlQL/quJyLCbccSnLTktNRcPNstsIU8UHdj5szTwnD/1cGM6kHHUzvfn1tOCuWe
+7oIndorgj7WM/ffYAnqTpVXDvBgjXCvdniBL4o5zlx/VB1orOfp6OPytMIYM9tgVNWBHQi6wxC7b
+GP/p6lBMAVy8BGPndd5IZway1ZcZDtEWnIkOv3G6908/cNwqUQYpdllsU6rutYpQTM7Fx8w0I7MM
+9CXaQhmlkj88nrip8Z/Reqr8Ma2qjWabJ7ONLQW5lv2aTZAi+ylNXpI5VJeg7E/k3Jlb96jb3EvN
+0TNHbAt0whTAR2Ni3O+kgDp6C93GZbygqtxfW8ttiEltQ7UJF525Ei+oEgJ3n2jISvKNhXKZ/RK2
+vJaUUDVV4vhQ7Fse/LVFo7MOSH40HO3R+YiHJhfIq6sluV3L1H6Q6xEAQcLLp/WlxGQe+Yn+F4eT
+hjPWe1FKyUJZkMYhwLiM6//2VNIX1VTPo+PT2NUAjv3ePu4kPnZ6W6kenI9DN+i6+yVKg5ODw2Ws
+f5wu3Z4Nj03kwSh42hIIgQRedWovhgdOoXoIap941z5u2NA6MVjM96ZO4GdwFieVIYcCAwEAAaND
+MEEwHQYDVR0OBBYEFKgGjBxLfBctF4XJyMtOcwSG7O9cMA8GA1UdDwEB/wQFAwMHBgAwDwYDVR0T
+AQH/BAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAgEAdQLqOP43bj7srSAA1EWzKPnXn94ZAZj5zsUf
+zhXQevnbsTlb0Trgexcb8Q/OgdXzoMU+d4FxKfYkUli5w/vyk2vYWS89r4POD62li6Tuq3GAgXk0
+cPYYWlLcd5gBn+9waZ5D4Vt7T92m4PjRZIA5Rq04RK45KopsoAoBJ1wyukAi3ucsqzQaiIlKEwWx
+7q+iCglo5HXd861p6tuuH6Z8K1km8HMnIFyicUBq7alnFEA6Vsdc8a4Iew0dS7NWqrPzn2+4v864
+XdbGR5vliBzfTbJmHrpNbzBCLoFzSKDF3/0E7pJBB2mJ/itdt5kB1N3uxX50kQ3qYglluKjS6yTQ
+zrGh6ME3A22AOgGo/bd2HkaEOnHg386Pvp0+qOCTQAzc7p+YLl0TWVFy98eXizdlWKLLY5abCawA
+YzSJ0VjjyO53QSnaiNsh3hDtHbpM9/3Hr04SriYaz5/qESs0eZIQ1r0os8Sss7WeZy37Gy3hhNRc
+uy6V6/mNAQRJ7s3WdI2J00miNxbgBBjiwCSetL8JZFFpG20fBcfGmLqdQRIzkbHXRzz6xakmxsMU
+EUQDrVWKz8RcTM05QPEDvBfkQCoF7Y0c0+PRnit3KMFmdm/N/jrxdE7Emc52UturoGGaGVbPLBYj
+0U9vaJle2RziBxxxFZTtwO55ntiFPWuvDpj3i7g=
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!--KSM Kök Sertifikası v1 -->
+MIIG5TCCBM+gAwIBAgIBATALBgkqhkiG9w0BAQUwggEVMQswCQYDVQQGEwJUUjEWMBQGA1UEBwwN
+R2ViemUtS29jYWVsaTFBMD8GA1UECgw4VMO8cmtpeWUgQmlsaW1zZWwgdmUgVGVrbmlrIEFyYcWf
+dMSxcm1hIEt1cnVtdS1Uw5xCxLBUQUsxRjBEBgNVBAsMPVVsdXNhbCBFbGVrdHJvbmlrIHZlIEty
+aXB0b2xvamkgQXJhxZ90xLFybWEgRW5zdGl0w7xzw7wtVUVLQUUxIzAhBgNVBAsMGkthbXUgU2Vy
+dGlmaWthc3lvbiBNZXJrZXppMT4wPAYDVQQDDDVUw5xCxLBUQUsgVUVLQUUgS8O2ayBTZXJ0aWZp
+a2EgSGl6bWV0IFNhxJ9sYXnEsWPEsXPEsTAeFw0wNTA2MjEwODA2MzBaFw0xNTA2MjEwODA2MzBa
+MIIBFTELMAkGA1UEBhMCVFIxFjAUBgNVBAcMDUdlYnplLUtvY2FlbGkxQTA/BgNVBAoMOFTDvHJr
+aXllIEJpbGltc2VsIHZlIFRla25payBBcmHFn3TEsXJtYSBLdXJ1bXUtVMOcQsSwVEFLMUYwRAYD
+VQQLDD1VbHVzYWwgRWxla3Ryb25payB2ZSBLcmlwdG9sb2ppIEFyYcWfdMSxcm1hIEVuc3RpdMO8
+c8O8LVVFS0FFMSMwIQYDVQQLDBpLYW11IFNlcnRpZmlrYXN5b24gTWVya2V6aTE+MDwGA1UEAww1
+VMOcQsSwVEFLIFVFS0FFIEvDtmsgU2VydGlmaWthIEhpem1ldCBTYcSfbGF5xLFjxLFzxLEwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCUGGNMMI1it+36yItTrPUinYpseA8JUaTxdOBP
+7c2OP6fqcbN8EOIQ8VIKyRIg7p00LKNfGORrh3AxAUs4HPJ6CsZMivpTCRks6l67y81HgLUJwzNW
+CsEl284N0bvsrB4PlEduGky2nr41FwecJYKjFPd0EU3hEobTO5S7+PDOIqO6Z8k1+p5NWvf3H/AI
+wYZzXqVruPqtwR7oOXTqJDN40U6d68+TNxVSERXixeynJb6PkkB00TVebnTHSBS/jXGpMWJEoZwQ
+Rf4gSN0aILuW34EVef/Eea+WVXJnU/lHuJYsojm57yTpDnS+DnJuFSu4I2e1s4943OnmucOuqp9r
+fre6gcJsKUaKvCKaOu9VnJOpyVo5aWuN0P05m28MaCJsOELYfPXquARutU95LdiLYuH/jIJt/j9u
+0oNLwImK4n2/Meri4ApYrmH4tArM/F+GQ/HGJ6ot0cgscjVAus5OsAVwOlcZCgYaaZX5yx5np1OP
+vCmBejIjiRrx4aM9CAp2wqdCCy2uyDFbfkd3oz9tLIXjtIRA6BIJc36e1CbfSSTFCigRfWEJl1ZP
+FcH/+AfPTn+styWGBhGmWzPcM5d6LdV5FDAsAIu5c57jsiIJdGM6/u9u3HxEriW/3sRD8h6bqRAm
+oPoxLzNuc1+n5ZlsfcGwLgrtRnOF3vysB+RIhwIDAQABo0AwPjAdBgNVHQ4EFgQUt5DghSxXrVaC
+XdOoFe1a/RpONCIwDwYDVR0PAQH/BAUDAwcGADAMBgNVHRMEBTADAQH/MAsGCSqGSIb3DQEBBQOC
+AgEAQu3tYrNuxzbZ+AcWu/zkAWgUyxb4cDG5FWQShstnSomLc1a7xA5dbGxvEtRd5tPIk8ng6b5X
+TDX2L6tM1dEQGhU75q4Ni6RCkKPFM1nBB8iglTsBFcQebPhPdvloyaoKQ6Y4oo/vuImUtQfSZIql
++c9g/+vXJjchk5+kPLbQGObSH0VY2qc5+8h2/ZDC8p51XHsjyR/px5A1o/QNIRLpPVBJUkPQAuMI
+PwoC1ZL6ZUEb7VfX9d6PSY5y4h9b6DRGLTE0KCUl1Dw8CMA5MWmW+piKCBUihGPDZoU1xLNUITN8
+x97MeeD97PTrKBdiu/IjOTXKELN/bA2QyJu37Z3pcosfjnO1S+Xiv8kyx8UwtO14aro1bna+/Av3
+b3tkBGpe4wfccJEM+O4egqEEevSK7mzSHQjigDgsauXv/DvrPJsKUQ7M5xPpgmYSLMVGeFDhoyl8
+3SAeqhCM3i44fHYXctJrLl0cCh0NWAmFG+f1C/Fomf6R2Crl7dLb+nRnyjmuEH876jBIkaAa1Xjc
+tYPDWM0rPJbqULyNYVbcACXzZ2A2elfVNqHDqC4guj7aPC9mEeiFN0CbIQBnQalrPgfcI7jYNIU6
+kYU/TifoNpzVbL33N6MbfTmeGhglANgVvgi5KMCBLcDXtRbxBgSf8TA/2vWEcatr/lJURuOcYHbk
+eak=
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!-- CN=e-Guven Kok Elektronik Sertifika Hizmet Saglayicisi,O=Elektronik Bilgi Guvenligi A.S.,C=TR -->
+MIIDtjCCAp6gAwIBAgIQRJmNPMADJ72cdpW56tustTANBgkqhkiG9w0BAQUFADB1MQswCQYDVQQG
+EwJUUjEoMCYGA1UEChMfRWxla3Ryb25payBCaWxnaSBHdXZlbmxpZ2kgQS5TLjE8MDoGA1UEAxMz
+ZS1HdXZlbiBLb2sgRWxla3Ryb25payBTZXJ0aWZpa2EgSGl6bWV0IFNhZ2xheWljaXNpMB4XDTA3
+MDEwNDExMzI0OFoXDTE3MDEwNDExMzI0OFowdTELMAkGA1UEBhMCVFIxKDAmBgNVBAoTH0VsZWt0
+cm9uaWsgQmlsZ2kgR3V2ZW5saWdpIEEuUy4xPDA6BgNVBAMTM2UtR3V2ZW4gS29rIEVsZWt0cm9u
+aWsgU2VydGlmaWthIEhpem1ldCBTYWdsYXlpY2lzaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMMSIJ6wXgBljU5Gu4Bc6SwGl9XzcslwuedLZYDBS75+PNdUMZTe1RK6UxYC6lhj71vY
+8+0qGqpxSKPcEC1fX+tcS5yWCEIlKBHMilpiAVDV6wlTL/jDj/6z/P2douNffb7tC+Bg62nsM+3Y
+jfsSSYMAyYuXjDtzKjKzEve5TfL0TW3H5tYmNwjy2f1rXKPlSFxYvEK+A1qBuhw1DADT9SN+cTAI
+JjjcJRFHLfO6IxClv7wC90Nex/6wN1CZew+TzuZDLMN+DfIcQ2Zgy2ExR4ejT669VmxMvLz4Bcpk
+9Ok0oSy1c+HCPujIyTQlCFzz7abHlJ+tiEMl1+E5YP6sOVkCAwEAAaNCMEAwDgYDVR0PAQH/BAQD
+AgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFJ/uRLOU1fqRTy7ZVZoEVtstxNulMA0GCSqG
+SIb3DQEBBQUAA4IBAQB/X7lTW2M9dTLn+sR0GstG30ZpHFLPqk/CaOv/gKlR6D1id4k9CnU58W5d
+F4dvaAXBlGzZXd/aslnLpRCKysw5zZ/rTt5S/wzw9JKp8mxTq5vSR6AfdPebmvEvFZ96ZDAYBzwq
+D2fK/A+JYZ1lpTzlvBNbCNvj/+27BrtqBrF6T2XGgv0enIu1De5Iu7i9qgi0+6N8y5/NkHZchpZ4
+Vwpm+Vganf2XKWDeEaaQHBkc7gGWIjQ0LpH5t8Qn0Xvmv/uARFoW5evg1Ao4vOSR49XrXMGs3xtq
+fJ7lddK2l4fbzIcrQzqECK+rPNv3PGYxhrCdU3nt+CPeQuMtgvEP5fqX
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!-- C=TR,O=EBG Bilişim Teknolojileri ve Hizmetleri A.Ş.,CN=EBG Elektronik Sertifika Hizmet Sağlayıcısı -->
+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
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!-- O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri A.Ş. (c) Kasım 2005,L=Ankara,C=TR,CN=TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı -->
+MIIEPDCCAySgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBvjE/MD0GA1UEAww2VMOcUktUUlVTVCBF
+bGVrdHJvbmlrIFNlcnRpZmlrYSBIaXptZXQgU2HEn2xhecSxY8Sxc8SxMQswCQYDVQQGEwJUUjEP
+MA0GA1UEBwwGQW5rYXJhMV0wWwYDVQQKDFRUw5xSS1RSVVNUIEJpbGdpIMSwbGV0acWfaW0gdmUg
+QmlsacWfaW0gR8O8dmVubGnEn2kgSGl6bWV0bGVyaSBBLsWeLiAoYykgS2FzxLFtIDIwMDUwHhcN
+MDUxMTA3MTAwNzU3WhcNMTUwOTE2MTAwNzU3WjCBvjE/MD0GA1UEAww2VMOcUktUUlVTVCBFbGVr
+dHJvbmlrIFNlcnRpZmlrYSBIaXptZXQgU2HEn2xhecSxY8Sxc8SxMQswCQYDVQQGEwJUUjEPMA0G
+A1UEBwwGQW5rYXJhMV0wWwYDVQQKDFRUw5xSS1RSVVNUIEJpbGdpIMSwbGV0acWfaW0gdmUgQmls
+acWfaW0gR8O8dmVubGnEn2kgSGl6bWV0bGVyaSBBLsWeLiAoYykgS2FzxLFtIDIwMDUwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpNn7DkUNMwxmYCMjHWHtPFoylzkkBH3MOrHUTpvqe
+LCDe2JAOCtFp0if7qnefJ1Il4std2NiDUBd9irWCPwSOtNXwSadktx4uXyCcUHVPr+G1QRT0mJKI
+x+XlZEdhR3n9wFHxwZnn3M5q+6+1ATDcRhzviuyV79z/rxAc653YsKpqhRgNF8k+v/Gb0AmJQv2g
+QrSdiVFVKc8bcLyEVK3BEx+Y9C52YItdP5qtygy/p1Zbj3e41Z55SZI/4PGXJHpsmxcPbe9TmJEr
+5A++WXkHeLuXlfSfadRYhwqp48y2WBmfJiGxxFmNskF1wK1pzpwACPI2/z7woQ8arBT9pmAPAgMB
+AAGjQzBBMB0GA1UdDgQWBBTZN7NOBf3Zz58SFq62iS/rJTqIHDAPBgNVHQ8BAf8EBQMDBwYAMA8G
+A1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAHJglrfJ3NgpXiOFX7KzLXb7iNcX/ntt
+Rbj2hWyfIvwqECLsqrkw9qtY1jkQMZkpAL2JZkH7dN6RwRgLn7Vhy506vvWolKMiVW4XSf/SKfE4
+Jl3vpao6+XF75tpYHdN0wgH6PmlYX63LaL4ULptswLbcoCb6dxriJNoaN+BnrdFzgw2lGh1uEpJ+
+hGIAF728JRhX8tepb1mIvDS3LoV4nZbcFMMsilKbloxSZj2GFotHuFEJjOp9zYhys2AzsfAKRO8P
+9Qk3iCQOLGsgOqL6EfJANZxEaGM7rDNvY7wsu/LSy3Z9fYjYHcgFHW68lKlmjHdxx/qR+i9Rnuk5
+UrbnBEI=
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                        <CertificateTrustPoint>
+                            <TrustPoint><!-- O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri A.Ş. (c) Aralık 2007,L=Ankara,C=TR,CN=TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı -->
+MIIEPTCCAyWgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBvzE/MD0GA1UEAww2VMOcUktUUlVTVCBF
+bGVrdHJvbmlrIFNlcnRpZmlrYSBIaXptZXQgU2HEn2xhecSxY8Sxc8SxMQswCQYDVQQGEwJUUjEP
+MA0GA1UEBwwGQW5rYXJhMV4wXAYDVQQKDFVUw5xSS1RSVVNUIEJpbGdpIMSwbGV0acWfaW0gdmUg
+QmlsacWfaW0gR8O8dmVubGnEn2kgSGl6bWV0bGVyaSBBLsWeLiAoYykgQXJhbMSxayAyMDA3MB4X
+DTA3MTIyNTE4MzcxOVoXDTE3MTIyMjE4MzcxOVowgb8xPzA9BgNVBAMMNlTDnFJLVFJVU1QgRWxl
+a3Ryb25payBTZXJ0aWZpa2EgSGl6bWV0IFNhxJ9sYXnEsWPEsXPEsTELMAkGA1UEBhMCVFIxDzAN
+BgNVBAcMBkFua2FyYTFeMFwGA1UECgxVVMOcUktUUlVTVCBCaWxnaSDEsGxldGnFn2ltIHZlIEJp
+bGnFn2ltIEfDvHZlbmxpxJ9pIEhpem1ldGxlcmkgQS7Fni4gKGMpIEFyYWzEsWsgMjAwNzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKu3PgqMyKVYFeaK7yc9SrToJdPNM8Ig3BnuiD9N
+YvDdE3ePYakqtdTyuTFYKTsvP2qcb3N2Je40IIDu6rfwxArNK4aUyeNgsURSsloptJGXg9i3phQv
+KUmi8wUG+7RP2qFsmmaf8EMJyupyj+sA1zU511YXRxcw9L6/P8JorzZAwan0qafoEGsIiveGHtya
+KhUG9qPw9ODHFNRRf8+0222vR5YXm3dx2KdxnSQM9pQ/hTEST7ruToK4uT6PIzdezKKqdfcYbwnT
+rqdUKDT74eA7YH2gvnmJhsifLfkKS8RQouf9eRbHegsYz85M733WB2+Y8a+xwXrXgTW4qhe04MsC
+AwEAAaNCMEAwHQYDVR0OBBYEFCnFkKslrxHkYb+j/4hhkeYO/pyBMA4GA1UdDwEB/wQEAwIBBjAP
+BgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAQDdr4Ouwo0RSVgrESLFF6QSU2TJ/s
+Px+EnWVUXKgWAkD6bho3hO9ynYYKVZ1WKKxmLNA6VpM0ByWtCLCPyA8JWcqdmBzlVPi5RX9ql2+I
+aE1KBiY3iAIOtsbWcpnOa3faYjGkVh+uX4132l32iPwa2Z61gfAyuOOI0JzzaqC5mxRZNTZPz/OO
+Xl0XrRWV2N2y1RVuAE6zS89mlOTgzbUF2mNXi+WzqtvALhyQRNsaXRik7r4EW5nVcV9VZWRi1aKb
+BFmGyGJ353yCRWo9F7/snXUMrqNvWtMvmDb08PUZqxFdyKbjKlhqQgnDvZImZjINXQhVdP+MmNAK
+poRq0Tl9
+                            </TrustPoint>
+                        </CertificateTrustPoint>
+                    </SignerTrustTrees>
+
+                    <SignerRevReq>
+                        <EndRevReq>
+                            <EnuRevReq>crlcheck</EnuRevReq>
+                        </EndRevReq>
+                        <CACerts>
+                            <EnuRevReq>crlcheck</EnuRevReq>
+                        </CACerts>
+                    </SignerRevReq>
+                </SigningCertTrustCondition>
+
+                <TimeStampTrustCondition>
+                    <TtsRevReq>
+                        <EndRevReq>
+                            <EnuRevReq>crlcheck</EnuRevReq>
+                        </EndRevReq>
+                        <CACerts>
+                            <EnuRevReq>crlcheck</EnuRevReq>
+                        </CACerts>
+                    </TtsRevReq>
+
+                    <CautionPeriod>
+                        <DeltaSeconds>0</DeltaSeconds>
+                        <DeltaMinutes>0</DeltaMinutes>
+                        <DeltaHours>0</DeltaHours>
+                        <DeltaDays>1</DeltaDays>
+                    </CautionPeriod>
+
+                    <SignatureTimeStampDelay>
+                        <DeltaSeconds>0</DeltaSeconds>
+                        <DeltaMinutes>10</DeltaMinutes>
+                        <DeltaHours>0</DeltaHours>
+                        <DeltaDays>0</DeltaDays>
+                    </SignatureTimeStampDelay>
+                </TimeStampTrustCondition>
+            </CommonRules>
+
+            <CommitmentRules>
+                <CommitmentRule>
+                    <SelCommitmentTypes>
+                        <SelCommitmentType>
+                            <Empty/>
+                        </SelCommitmentType>
+                    </SelCommitmentTypes>
+                </CommitmentRule>
+            </CommitmentRules>
+
+        </SignatureValidationPolicy>
+
+    </SignPolicyInfo>
+
+    <SignPolicyDigest>U+YuyF+QcjZcX4Pz2I2f7H0UQ4/dswvnGZtPOWr3Zxg=</SignPolicyDigest>
+
+</SignaturePolicy>
+
+
+
+
